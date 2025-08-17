@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(135deg, #a2d4f4, #d3efff);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-banner {
+  width: 100%;
+  background: #007BFF;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+  background: linear-gradient(145deg, #ffe0c3, #e1d5f0); /* Peach to lavender */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calculator img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.calculator h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#display {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(135deg, #ffe29f, #ffa99f);
+  text-align: right;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: bold;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffc371;
+  overflow-x: auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  height: 60px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-gray {
+  background-color: #5a6268;
+  color: #fff;
+}
+
+.btn-orange {
+  background-color: #ff6f61;
+  color: #fff;
+}
